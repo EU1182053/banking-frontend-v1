@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyWay Bank</title>
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="./app.component.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  </head>
+
+  <body> 
+    <!-- Preloader -->
+    <!-- <div class="preloader">
+    <img src="./images/preloader.gif" alt="" />
+  </div> -->
+
+    <!-- Header -->
+    <header class="header">
+      <a href="/" class="logo">EasyWay<span class="yellow">Bank</span></a>
+      <nav class="navbar"> 
+        <a href="#account">Account</a>
+        <a href="#beneficiary">Beneficiary</a>
+       
+        <a href="#transfer">Fund Transfer</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="account">
+      <div class="content">
+        <h1>Create Your Account <span class="yellow">Easier & Faster.</span></h1>
+        <p>
+          Opening a Savings Account is a simple task that may take, at best, an hour, sometimes 
+          even 15 minutes. Most banks usually have similar procedures, so it is fairly easy to open 
+          a Savings Account.
+        </p>
+        <a href="./html/login.html" class="home-btn">Open Account</a>
+      </div>
+      <div class="image">
+        <img src="../assets/images/sp-purple-savings-account.jpg" alt="" />
+      </div>
+    </section> 
+
+    <!-- Home -->
+    <section class="home" id="beneficiary">
+      <div class="content">
+        <h1>Add new Beneficiary <span class="yellow">Easier & Faster.</span></h1>
+        <p>
+          In banking, a beneficiary is a recipient of fund transfers.You need to provide the fund transferring
+           bank with specific details of the beneficiary.
+        </p>
+        <a href="./html/login.html" class="home-btn">Add Beneficiary</a>
+      </div>
+      <div class="image">
+        <img src="../assets/images/download.jpg" alt="" />
+      </div>
+    </section> 
+
+    <!-- Home -->
+    <section class="home" id="transfer">
+      <div class="content">
+        <h1>Transfer your Money <span class="yellow">Easier & Faster.</span></h1>
+        <p>
+          A Funds Transfer is a sequence of events that results in the movement of funds from 
+          the remitter to the beneficiary. It is also defined as the remittance of funds from 
+          one party to itself or to another party through the banking system.
+        </p>
+        <a href="./html/login.html" class="home-btn">Fund Transfer</a>
+      </div>
+      <div class="image">
+        <img src="../assets/images/images.png" alt="" />
+      </div>
+    </section> 
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="top">
+        <div class="content">
+          <a href="" class="logo">EasyWay<span class="yellow">Bank</span></a>
+          <p>
+            EasyWay Bank is a financial institution that accepts deposits from the public and creates 
+            a demand deposit while simultaneously making loans. 
+          </p>
+        </div>
+
+        <div class="links">
+          <div class="link">
+            <h4>Contact Information</h4>
+            <div>
+              <img src="./images/location-cross.svg" alt="" />
+              <span
+                >Unit No.5,4rth Floor,Ruby Tower, Sena Pati Bapat Marg,Dadar
+                West,Dadar 400028.</span
+              >
+            </div>
+            <div>
+              <img src="./images/sms-tracking.svg" alt="" />
+              <span>easywaybank@gmail.com</span>
+            </div>
+          </div>
+
+         
+
+        <div class="link">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Term of Use</a>
+          <a href="#">Conditions</a>
+          <a href="#">Location</a>
+        </div> -->
+        <h4>Contact Us</h4>
+          <div class="container">
+            <div class="forms">
+              <div class="form login">
+                <span class="title">Query/Suggestion</span>
+
+                <form
+                  action=""
+                  name="formValidation"
+                  id="formValidation"
+                >
+                  <div class="input-field">
+                    <input name="email" type="text" placeholder="Email ID" />
+                  </div>
+                  <div class="input-field">
+                    <input
+                      name="phone"
+                      type="number"
+                      placeholder="Mobile No."
+                    />
+                  </div>
+                  <div class="input-field">
+                    <textarea
+                      name="formMessage"
+                      rows="6"
+                      placeholder="Query or Sugestion"
+                    ></textarea>
+                  </div>
+
+                  <div class="input-field button">
+                    <input type="submit" value="Send" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="link">
+            <h4>Connect with Us</h4>
+            <div>
+              <img src="./images/instagram.svg" alt="" />
+              <a href="https://www.instagram.com/"><span>Instagram</span></a>
+            </div>
+            <div>
+              <img src="./images/twitter.svg" alt="" />
+              <a href="https://twitter.com/"><span>Twitter</span></a>
+            </div>
+            <div>
+              <img src="./images/facebook.svg" alt="" />
+              <a href="https://www.facebook.com/"><span>Facebook</span></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>Copyright © 2010-2022 EasyWay Bank . All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Go To Top -->
+    <div class="scroll-top">
+      <img src="../assets/images/arrow-up-outline.svg" alt="" />
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
